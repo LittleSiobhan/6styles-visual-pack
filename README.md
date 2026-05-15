@@ -1,37 +1,37 @@
-# 🎨 六风格视觉包 / 6styles Visual Pack
+# 🎨 6styles Visual Pack
 
-六种即用AI视觉风格，覆盖国风、科技、生活、品牌、文创五大品类。  
-每套风格采用**固定公式 + 可替换变量**架构，替换 `【】` 内内容即可快速出图。
+Six pluggable AI visual style templates, covering five categories: Chinese traditional, tech, lifestyle, brand, and creative culture.  
+Each style uses a **fixed formula + replaceable variable** architecture — replace text inside `【】` and generate.
 
-## 风格列表
+## Styles
 
-| 编号 | 风格 | 品类 | 一句话 |
-|------|------|------|--------|
-| 1 | 🏮 非遗年画 | 国风 | 木版年画质感，套色印制 |
-| 2 | ⚡ 科技粒子 | 科技 | 粒子流光+激光上升，发布会大屏 |
-| 3 | 🏙️ 活力拼贴风 | 生活/活动 | 真人户外，涂鸦箭头，配色可换 |
-| 4 | 🌸 液态色彩流 | 生活/活动 | 春日诗意，液态色彩交融 |
-| 5 | 💎 科技玻璃风 | 品牌/商务 | 大面积留白，科技玻璃质感 |
-| 6 | 📰 复古报纸风 | 创意/文化 | 活版印刷，文化专栏 |
+| # | Style | Category | Description |
+|---|-------|----------|-------------|
+| 1 | 🏮 New Year Print | Traditional | Woodblock print texture, overprint craftsmanship |
+| 2 | ⚡ Tech Particles | Tech | Particle streams + laser rising, launch event backdrop |
+| 3 | 🏙️ Collage Vibe | Lifestyle | Outdoor scenes, hand-drawn arrows with white outlines |
+| 4 | 🌸 Liquid Color Flow | Lifestyle | Spring poetic, liquid colors blending |
+| 5 | 💎 Tech Glass | Brand/Business | Clean layout, tech glass texture |
+| 6 | 📰 Retro Newspaper | Creative/Culture | Letterpress printing, cultural column |
 
-## 使用方法
+## Usage
 
-1. 打开对应风格的 JSON 文件
-2. 复制 `formula` 字段（固定 Prompt 公式）
-3. 替换 `【】` 内的变量为你需要的内容
-4. 将确认后的 Prompt 输入生图工具中生成
+1. Open the style JSON file
+2. Copy the `formula` field (fixed prompt template)
+3. Replace `【】` variables with your content
+4. Input the confirmed prompt into your image generation tool
 
-## 规则
+## Rules
 
-- **公式固定不变**：除 `【】` 内的变量外，不修改任何描述
-- **一次替换一个主题**：一套公式对应一套视觉语言
-- **标题与字体分两段写**：标题文字单独一行，字体说明单独一行
-- **颜色单独指定**：字体颜色作为独立变量
+- **Formula is fixed**: Only replace `【】` variables, don't modify anything else
+- **One theme at a time**: One formula = one visual language
+- **Title & font separate**: Title text on one line, font description on another
+- **Color as independent variable**: Specify font color separately
 
-## 工具
+## Download
 
-本技能包仅提供 Prompt 模板，不绑定任何生图工具。请自行选择合适的生图工具使用。
+Clone or download ZIP from this repo.
 
-## 许可
+## License
 
-MIT License — 欢迎自由使用、修改、分享。
+MIT — free to use, modify, and share.
