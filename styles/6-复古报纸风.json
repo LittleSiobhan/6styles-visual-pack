@@ -1,0 +1,14 @@
+{
+  "style_name": "复古报纸风",
+  "category": "创意/文化",
+  "description": "活版印刷，文化专栏，泛黄纸底，复古怀旧质感",
+  "scenario_examples": ["文化专题专栏配图", "老字号/怀旧主题视觉"],
+  "formula": "Vintage newspaper and letterpress printing style illustration. Aged yellowish newsprint paper background with halftone dot texture. Heavy uneven ink strokes simulating letterpress impression. Thick hand-drawn Chinese headline titles with serif or typewriter-style supplementary text. Vintage color palette：锈红、赭石、褪色蓝、米白。邮票/邮戳边框元素，花式装饰分割线，粗网点木刻风插画。报纸栏位排版，有印刷油墨渍点和重叠错位效果。文字内容：【主标题】、【副标题】、【正文摘录】。整体复古印刷质感，怀旧文化氛围。",
+  "rule": "公式固定不变，仅替换【】内的内容。",
+  "variables": {
+    "主标题": "粗重大字标题 / 或自定义",
+    "副标题": "小字副标题 / 或自定义",
+    "正文摘录": "印刷正文段落 / 或自定义"
+  },
+  "canvas": {"ratio": "16:9", "px": "2560×1440"}
+}
